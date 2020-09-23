@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #314755 0%, #26A0DA 100%);
+    width: 100%;
+
+}
+
+.info{
+    background-color: #fff;
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.wave2{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    max-height: 800px;
+    bottom: 0;
+    top: 1px;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paypal{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.contenedor-texto h1{
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+}
+
+.contenedor-texto a{
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #00D9F5;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+
+.info h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+   -webkit-background-clip: text;
+     color: transparent;
+}
+
+.info p{
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    -webkit-background-clip: text;
+      color: transparent;
+}
+
+.inversion__info{
+    background: linear-gradient(90deg, #2B5876 0%, #4E4376 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.inversion__info h2{
+    color: #fff;
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.inversion__info h4{
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.contenedor-inversion-2 img{
+    width: 400px;
+}
+
+.iconos{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iconos i{
+    color: #999123;
+    margin: 15px;
+    font-size: 35px;
+}
+
+.icon p{
+    color: #fff;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+footer p{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+footer .redes-footer{
+    padding-left: 15px;
+}
+
+footer .texto-footer{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.facebook{
+    color: #1773EA;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.twitter{
+    color: #1C9CEA;
+    font-size: 25px;
+}
+
+.instagram{
+    padding-right: 10px;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+/* Diseño responsivo */
+
+@media screen and (max-width: 976px){
+    .contenedor-inversion-1{
+        text-align: center;
+    }
+
+    .inversion__info h4{
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 1009px){
+    .contenedor-texto h1{
+        text-align: center;
+    }
+
+    .contenedor-texto a{
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 515px){
+    .contenedor-texto h1{
+        font-size: 40px;
+    }
+
+    .contenedor-texto a{
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin: auto;
+        color: #00D9F5;;
+        background-color: #fff;
+    }
+
+    .paypal{
+        width: 400px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contenedor-texto a{
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        margin: auto;
+        color: #24286d;;
+        background-color: #fff;
+    }
+
+    .contenedor-texto h1{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 515px){
+    .paypal{
+        width: 300px;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .inversion__info h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .inversion__info h4{
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
+    .contenedor-inversion-2 img{
+        width: 280px;
+    }
+
+    .iconos{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .iconos i{
+        font-size: 25px;
+    }
+
+    .redes-footer{
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .wave2{
+        display: none;
+    }
+
+    .info h2{
+        font-size: 50px;
+    }
+
+    .info{
+        padding-top: 20px;
+    }
+
+    .info p{
+        font-size: 30px;
+    }
+
+    .contenedor{
+        margin-bottom: 20px;
+    }
+}
